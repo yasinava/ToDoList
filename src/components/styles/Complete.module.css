@@ -1,0 +1,38 @@
+.unCompleteContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn,
+.btn2 {
+  display: flex;
+  overflow: hidden;
+}
+.btn button {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #4e4e80;
+}
+.completeContainer {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn2 button {
+  margin-top: 5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #4e4e803d;
+  background-color: #4e4e803d;
+}
+.btn2 h5 {
+  color: #4e4e803d;
+}
+@media (max-width: 468px) {
+  .completeContainer,
+  .unCompleteContainer {
+    width: 280px;
+  }
+}
